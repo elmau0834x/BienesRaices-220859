@@ -4,11 +4,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server":"nodemon index.js",
-    "saludo":"node saluda.js",
-    "css":"postcss public/css/tailwind.css -o public/css/app.css --watch"
+    "server": "nodemon index.js",
+    "saludo": "node saluda.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/elmau0834x/BienesRaices220859.git"
   },
@@ -27,10 +27,10 @@
   ],
   "author": "Mauricio Rosales Gabriel",
   "license": "ISC",
-  "bugs":{
-    "url":"https://github.com/elmau0834x/BienesRaices220859/issues"
+  "bugs": {
+    "url": "https://github.com/elmau0834x/BienesRaices220859/issues"
   },
-  "homepage":"https://github.com/elmau0834x/BienesRaices220859#readme",
+  "homepage": "https://github.com/elmau0834x/BienesRaices220859#readme",
   "description": "Proyecto de clase para la unidad 2, de la asignatura de AWOS",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
@@ -40,7 +40,10 @@
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "pug": "^3.0.3"
+    "mysql2": "^3.11.4",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.5"
   }
 }
